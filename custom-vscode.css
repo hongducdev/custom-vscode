@@ -1,0 +1,102 @@
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #f5e0dc,
+    #f2cdcd,
+    #f5c2e7,
+    #cba6f7,
+    #f38ba8,
+    #eba0ac,
+    #fab387,
+    #f9e2af,
+    #a6e3a1,
+    #94e2d5,
+    #89dceb,
+    #74c7ec,
+    #89b4fa,
+    #b4befe
+  );
+  animation: gradient 8s ease alternate infinite;
+  height: 2px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before {
+  border: 0;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, #a6e3a1, #89b4fa);
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .badge
+  .badge-content {
+  background-image: linear-gradient(45deg, #a6e3a1, #89b4fa);
+}
+.monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(to top, #a6e3a1, #94e2d5, #89dceb, #74c7ec);
+}
+
+.monaco-scrollable-element > .scrollbar > .slider {
+  border-radius: 5px;
+  background-image: linear-gradient(
+    -45deg,
+    #f5e0dc,
+    #f2cdcd,
+    #f5c2e7,
+    #cba6f7,
+    #f38ba8,
+    #eba0ac,
+    #fab387,
+    #f9e2af,
+    #a6e3a1,
+    #94e2d5,
+    #89dceb,
+    #74c7ec,
+    #89b4fa,
+    #b4befe
+  );
+}
+
+.monaco-workbench.vs-dark
+  .part.editor
+  > .content
+  .editor-group-container
+  .editor-group-watermark
+  > .letterpress {
+  width: 500px;
+  height: 300px;
+  background-image: url("https://github.com/Aikoyori/ProgrammingVTuberLogos/blob/main/VSCode/VSCode-Thick.png?raw=true");
+  object-fit: cover;
+}
