@@ -89,6 +89,7 @@
   );
 }
 
+/* Custom logo VsCode */
 .monaco-workbench.vs-dark
   .part.editor
   > .content
