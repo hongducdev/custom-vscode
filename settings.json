@@ -1,0 +1,86 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.fontFamily": "SFMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.suggest.preview": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "[html]": {
+    "editor.matchBrackets": "never"
+  },
+  "[css]": {
+    "editor.matchBrackets": "never"
+  },
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontSize": 16,
+  "git.ignoreMissingGitWarning": true,
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.alwaysShowStatus": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true,
+    "java": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontFamily": "SFMono Nerd Font",
+  "terminal.integrated.fontSize": 16,
+  "gitlens.defaultDateLocale": null,
+  "git.enableSmartCommit": true,
+  "prettier.bracketSameLine": false,
+  "editor.formatOnPaste": true,
+  "markdown.math.enabled": false,
+  "editor.linkedEditing": true,
+  "scss.lint.unknownAtRules": "ignore",
+  "editor.cursorBlinking": "expand",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "git.autofetch": true,
+  "css.lint.unknownAtRules": "ignore",
+  "githubPullRequests.pullBranch": "never",
+  "terminal.integrated.gpuAcceleration": "off",
+  "catppuccin.accentColor": "green",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "settingsSync.ignoredExtensions": [],
+  "workbench.colorCustomizations": {},
+  "catppuccin.colorOverrides": {},
+  "catppuccin.workbenchMode": "flat",
+  "github.copilot.advanced": {},
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "vscode_custom_css.imports": [
+    "file:///home/hongducdev/Documents/Code/custom-vscode.css"
+  ],
+  "workbench.productIconTheme": "fluent-icons",
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "explorer.compactFolders": false,
+  "cSpell.language": "en,vi",
+  "workbench.iconTheme": "catppuccin-perfect-mocha",
+  "workbench.startupEditor": "none"
+}
