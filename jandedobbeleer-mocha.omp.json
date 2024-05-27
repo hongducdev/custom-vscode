@@ -151,9 +151,7 @@
         },
         {
           "background": "#89b4fa",
-          "background_templates": [
-            "{{ if gt .Code 0 }}#e91e63{{ end }}"
-          ],
+          "background_templates": ["{{ if gt .Code 0 }}#e91e63{{ end }}"],
           "foreground": "#cdd6f4",
           "properties": {
             "always_enabled": true
@@ -191,9 +189,9 @@
         {
           "background": "#fab387",
           "background_templates": [
-            "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
-            "{{if eq \"Full\" .State.String}}#4caf50{{end}}"
+            "{{if eq \"Charging\" .State.String}}#89b4fa{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#fab387{{end}}",
+            "{{if eq \"Full\" .State.String}}#a6e3a1{{end}}"
           ],
           "foreground": "#cdd6f4",
           "invert_powerline": true,
