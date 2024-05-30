@@ -6,7 +6,7 @@
       "segments": [
         {
           "background": "#cba6f7",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": " {{ .UserName }} ",
@@ -15,7 +15,7 @@
         },
         {
           "background": "#f38ba8",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": " \ue0b1 ",
@@ -50,7 +50,7 @@
         },
         {
           "background": "#a6e3a1",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_version": true
@@ -95,7 +95,7 @@
         },
         {
           "background": "#f38ba8",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -107,7 +107,7 @@
         },
         {
           "background": "#fab387",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
@@ -122,7 +122,7 @@
             "{{if contains \"default\" .Profile}}#FFA400{{end}}",
             "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
           ],
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_default": false
@@ -141,7 +141,7 @@
         },
         {
           "background": "#cba6f7",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "properties": {
             "always_enabled": true
           },
@@ -152,7 +152,7 @@
         {
           "background": "#89b4fa",
           "background_templates": ["{{ if gt .Code 0 }}#e91e63{{ end }}"],
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "properties": {
             "always_enabled": true
           },
@@ -168,7 +168,7 @@
       "segments": [
         {
           "background": "#89b4fa",
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "style": "plain",
           "template": "<#89b4fa,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#89b4fa>\ue0b2</>",
           "type": "shell"
@@ -193,7 +193,7 @@
             "{{if eq \"Discharging\" .State.String}}#fab387{{end}}",
             "{{if eq \"Full\" .State.String}}#a6e3a1{{end}}"
           ],
-          "foreground": "#cdd6f4",
+          "foreground": "#1e1e2e",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
