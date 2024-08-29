@@ -1,0 +1,152 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.hover.sticky": false,
+    "editor.stickyScroll.enabled": false,
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "workbench.iconTheme": "catppuccin noctis icons",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "catppuccin.accentColor": "lavender",
+    "catppuccin.extraBordersEnabled": true,
+    "editor.tabSize": 4,
+    "files.autoSave": "afterDelay",
+    "editor.lineHeight": 1.8,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "prettier.tabWidth": 4,
+    "workbench.productIconTheme": "fluent-icons",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["powershell"]
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.fontSize": 16,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.location": "top",
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 7,
+            "y": 5
+        }
+    },
+    "apc.font.family": "JetBrains Mono",
+    "apc.stylesheet": {
+        ".quick-input-widget": {
+            "position": "absolute !important",
+            "top": "200px !important",
+            "left": "50%",
+            "padding": "5px",
+            "border-radius": "10px",
+            "border": "1px solid var(--vscode-textSeparator-foreground) !important",
+            "box-shadow": "0 0 60px 0 rgba(0,0,0,0.2) !important"
+        },
+        ".breadcrumbs-below-tabs": {
+            "display": "none"
+        },
+        ".monaco-workbench .part.sidebar>.title": {
+            "display": "none"
+        },
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions": {
+            "display": "none"
+        },
+        // whole title bar command center container
+        ".action-item.command-center-center": {
+            "background-color": "transparent !important",
+            "border": "none !important",
+            "width": "fit-content !important"
+        },
+        // field
+        ".quick-input-header": {
+            "padding": "0 !important"
+        },
+        // input element container
+        ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
+            "border-radius": "5px !important"
+        },
+        // actual input element
+        ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
+            "padding": "8px 10px !important"
+        },
+        // list of results
+        ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+            "padding": "2px !important"
+        },
+        // status bar set height
+        "div:has(> .statusbar)": {
+            "height": "25px !important",
+            "top": "auto !important",
+            "bottom": "0 !important"
+        },
+        ".statusbar": {
+            "height": "25px !important"
+        },
+        // hides search icon
+        ".codicon.codicon-search.search-icon": {
+            "display": "none !important"
+        },
+        // empty editor background
+        ".editor-group-container.empty.active": {
+            "background-color": "var(--vscode-statusBar-background)"
+        },
+        "div:has(> .tabs-and-actions-container.tabs-border-bottom.empty)": {
+            "background-color": "var(--vscode-statusBar-background) !important"
+        },
+        ".titlebar-left": {
+            "display": "none !important"
+        },
+        ".window-title": {
+            "position": "relative"
+        },
+        ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-right>.action-toolbar-container:not(.has-no-actions)": {
+            "display": "none !important"
+        },
+        ".title.tabs.show-file-icons": {
+            "background-color": "transparent !important"
+        },
+        ".letterpress": {
+            "background-image": "url('https://github.com/Aikoyori/ProgrammingVTuberLogos/blob/main/VSCode/VSCode-Thick.png?raw=true') !important",
+            "background-repeat": "no-repeat no-repeat !important",
+            "background-position": "center center !important",
+            "background-size": "contain !important",
+            "width": "200% !important"
+        },
+        ".shortcuts": {
+            "display": "none !important"
+        },
+        ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top>.tab-border-top-container": {}
+    },
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "scm.inputFontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "chat.editor.fontFamily": "JetBrains Mono",
+    "debug.console.fontFamily": "JetBrains Mono",
+    "editor.codeLensFontFamily": "JetBrains Mono",
+    "notebook.output.fontFamily": "JetBrains Mono",
+    "markdown.preview.fontFamily": "JetBrains Mono",
+    "editor.inlayHints.fontFamily": "JetBrains Mono",
+    "window.title": "${activeEditorShort}",
+    "workbench.startupEditor": "none",
+    "color-highlight.markerType": "underline"
+}
